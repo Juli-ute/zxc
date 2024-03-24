@@ -1,6 +1,8 @@
 #ifndef MIDDLE_H_INCLUDED
 #define MIDDLE_H_INCLUDED
 
+int itc_null_num (long long ch);
+
 int itc_min_num (long long ch);
 
 int itc_max_num (long long ch);
