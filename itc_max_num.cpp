@@ -4,6 +4,9 @@
 int itc_max_num(long long ch){
     long long a = 0;
     long long b = 0;
+    if (ch < 0){
+        ch = ch * -1;
+    }
     while(ch !=0){
             a = ch % 10;
             if (a > b){
@@ -13,3 +16,4 @@ int itc_max_num(long long ch){
         }
   return b;
 }
+
