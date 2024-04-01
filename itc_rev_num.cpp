@@ -12,7 +12,7 @@ int itc_rev_num(int ch){
         ch = ch * -1;
     }
     if (ch == 0){
-        return 0;
+        return 1;
     }
 
     while(ch != 0){
