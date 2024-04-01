@@ -1,12 +1,11 @@
-
 #include "middle.h"
 
 
-int itc_rev_num(int ch){
-    int a = 0;
-    int z = 0;
+int itc_rev_num(long long ch){
+    long long a = 0;
+    long long z = 0;
     int result = 0;
-    int chp = 0;
+    long long chp = 0;
 
     if (ch < 0){
         ch = ch * -1;
@@ -26,3 +25,4 @@ int itc_rev_num(int ch){
     }
      return result;
 }
+
