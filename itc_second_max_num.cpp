@@ -5,26 +5,27 @@ int itc_second_max_num(long long ch){
     if (ch < 0){
         ch = ch * -1;
     }
-    if (ch < 10){
-        return -1;
-    }
     long long ch2 = ch;
     long long a = 0;
-    long long a2 = 0;
+    long long b2 = 0;
     long long b = 0;
-    while(ch !=0){
-            a = ch % 10;
-            if (a > b){
-            b = a;
-            }
-             ch = ch / 10;
+
+     if (ch < 10){
+        return -1;
     }
-    while(ch !=0){
-            a = ch2 % 10;
-            if (a > a2 and a < b){
-            a2 = a;
-            }
-            ch2 = ch2 / 10;
+ else{
+    while (ch != 0){
+        a = ch % 10;
+        if(b2 <= a){
+            b = b2;
+            b2 = a;
         }
-  return a2;
+        if(a < b2 && a > b){
+            b = a;
+        }
+        ch = ch / 10;
+    }
+return b;
 }
+}
+
