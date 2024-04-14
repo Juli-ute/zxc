@@ -1,6 +1,10 @@
 #ifndef MIDDLE_H_INCLUDED
 #define MIDDLE_H_INCLUDED
 
+long long itc_bin_num(long long ch);
+
+int itc_mirror_count(long long ch);
+
 bool itc_mirror_num(long long ch);
 
 int itc_second_simple_max_num (long long ch);
