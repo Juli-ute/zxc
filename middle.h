@@ -1,6 +1,8 @@
 #ifndef MIDDLE_H_INCLUDED
 #define MIDDLE_H_INCLUDED
 
+long long itc_oct_num(long long ch);
+
 long long itc_bin_num(long long ch);
 
 int itc_mirror_count(long long ch);
