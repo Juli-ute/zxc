@@ -1,7 +1,7 @@
 #include <iostream>
 #include "middle.h"
 
-int itc_null_num(long long ch){
+int itc_null_count(long long ch){
     long long a = 0;
     long long result = 0;
     while(ch !=0){
