@@ -2,6 +2,11 @@
 #include "middle.h"
 
 int itc_null_count(long long ch){
+    
+  if(ch == 0){
+    return 1;
+     }
+
     long long a = 0;
     long long result = 0;
     while(ch !=0){
