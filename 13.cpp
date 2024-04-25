@@ -3,6 +3,7 @@
 using namespace std;
 
 
+
 long long itc_bin_num(long long ch){
 long long j = 0;
 long long jj = 0;
@@ -30,10 +31,3 @@ if(y == 1){
 }
 return jj;
 }
-
-
-
-
-
-
-
