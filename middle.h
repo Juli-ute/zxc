@@ -1,6 +1,8 @@
 #ifndef MIDDLE_H_INCLUDED
 #define MIDDLE_H_INCLUDED
 
+int itc_rev_covert_num(long long  ch, int ch2);
+
 int itc_rev_oct_num(long long ch);
 
 long long itc_oct_num(long long ch);
