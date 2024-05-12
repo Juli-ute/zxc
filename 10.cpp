@@ -11,7 +11,7 @@ if(ch == 0){
  return 1;
 }
 
-while (a != ch){
+while (a <= ch){
     if(itc_mirror_num(a)){
         risult++;}
     a++;
