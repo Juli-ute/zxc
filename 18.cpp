@@ -5,7 +5,7 @@ int itc_rev_covert_num(long long  ch, int ch2){
 long long a = 0;
 long long c = 0;
 long long num = 0;
-intl b = 1;
+int b = 1;
 
 while(ch != 0){
 
