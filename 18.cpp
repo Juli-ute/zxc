@@ -6,7 +6,7 @@ long long a = 0;
 long long b = 0;
 long long c = 0;
 long long num = 0;
-int b = 1;
+long long b = 1;
 
 while(ch != 0){
 
